@@ -23,6 +23,7 @@ p{
 
 .logo{
     width: 80px;
+    background-color: none;
 }
 
 .logo_contain{
@@ -58,10 +59,10 @@ color: rgba(255, 145, 12, 1);
     position: relative;
 }
 
-.btn_inviter{
+.section_inviter{
     border: white 1px solid;
     border-radius: 05px;
-    background-color: rgba(160, 160, 160, 0.1);
+    background-color: rgba(160, 160, 160, 0);
     color: white;
     font-size: 25px;
     padding:5px;
@@ -70,6 +71,7 @@ color: rgba(255, 145, 12, 1);
     height: 10vh;
     bottom  : 45px;
     position: relative;
+
 
 }
 
@@ -86,5 +88,5 @@ color: rgba(255, 145, 12, 1);
     bottom:auto;
     position: relative;
     top: 320px;
-    left: 405px;
+    left: 355px;
 }
