@@ -1,0 +1,90 @@
+body{
+    background-color: rgba(0, 6, 21, 1);
+    background-image: url(./01_media/dotted_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    background-color: white;
+    font-size: 07vh;
+
+}
+.page{
+    max-width: 800px;
+    margin:45px;
+    position: relative;
+    top:35px
+}
+
+.logo{
+    width: 80px;
+}
+
+.logo_contain{
+    display:inline;
+    position: relative;
+    top: 240px;
+}
+
+.logo_sat{
+    width: 350px;
+}
+
+.inviter{
+font-weight: bold;
+color: rgba(255, 145, 12, 1);
+}
+
+.rejoindre{
+    font-weight: bold;
+    color: rgba(253, 57, 104, 1);
+}
+
+.btn_joindre{
+    border: white 1px solid;
+    border-radius: 05px;
+    background-color: rgba(160, 160, 160, 0.1);
+    color: white;
+    width: 50vw;
+    height: 15vh;
+    font-size: 50px;
+    padding:5px;
+    top: 45px;
+    position: relative;
+}
+
+.btn_inviter{
+    border: white 1px solid;
+    border-radius: 05px;
+    background-color: rgba(160, 160, 160, 0.1);
+    color: white;
+    font-size: 25px;
+    padding:5px;
+    position: relative;
+    top: 70px;
+    height: 10vh;
+    bottom  : 45px;
+    position: relative;
+
+}
+
+.logo_quebec{
+    position: relative;
+    bottom:auto;
+    position: relative;
+    top: 320px;
+    right: 135px;
+}
+
+.logo_mtl{
+    position: relative;
+    bottom:auto;
+    position: relative;
+    top: 320px;
+    left: 405px;
+}
